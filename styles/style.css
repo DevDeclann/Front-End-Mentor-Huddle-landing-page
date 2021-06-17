@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background: url("/images/bg-desktop.svg") fixed no-repeat;
+  background-size: cover;
+}
+
+html {
+  background: #674baf;
+}
+
+body {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font: lighter;
+  background: #674baf;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav .nav-logo img {
+  width: 200px;
+}
+
+.main-section .main-info {
+  padding-right: 160px;
+  margin-top: -460px;
+}
+
+.main-section .main-info {
+  float: right;
+  width: 500px;
+  z-index: 99;
+  padding-right: 90px;
+  margin-right: 20px;
+  margin-top: -450px;
+}
+
+.main-section .section-image {
+  padding-left: 87px;
+}
+
+.main-section .section-image img {
+  width: 640px;
+}
+
+.main-section .main-info p {
+  line-height: 24px;
+}
+
+.main-section .main-info input[type="submit"] {
+  background: #fff;
+  width: 200px;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 17px 10px black;
+  box-shadow: 0px 4px 10px #2e2e2e;
+  height: 50px;
+  cursor: pointer;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #674baf;
+}
+
+.main-section .main-info input[type="submit"]:hover {
+  color: #ffffff;
+  background: #e882e8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .main-info input {
+  margin-top: 30px;
+}
+
+.main-section .main-info h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: red;
+}
+
+@media (max-width: 375px) {
+  nav .nav-logo img {
+    width: 150px;
+  }
+  .main-section .section-image {
+    padding-left: 30px;
+  }
+  .main-section .section-image img {
+    width: 320px;
+  }
+  .main-section .main-info {
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+    width: auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .main-section .main-info h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 43px;
+    margin: none;
+    text-align: center;
+  }
+  .main-section .main-info p {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+  }
+  .attribution {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
